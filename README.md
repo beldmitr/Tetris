@@ -1,8 +1,8 @@
 # Tetris
 It is a classic tetris game
-
-Left arrow - moving left
-Right arrow - moving right
-Down arrow - figure will fall down faster
-Space - rotation
-P - pause
+<br/>
+<h3>Left arrow</h3> - moving left<br/>
+<h3>Right arrow</h3> - moving right<br/>
+<h3>Down arrow</h3> - figure will fall down faster<br/>
+<h3>Space</h3> - rotation<br/>
+<h3>P</h3> - pause<br/>
