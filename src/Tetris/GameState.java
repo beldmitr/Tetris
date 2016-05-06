@@ -116,7 +116,7 @@ public class GameState {
 			}
 		}
 
-		// You can ride figure only if it is an active figure, game is going and
+		// You can control figure only if it is an active figure, game is going and
 		// game is not paused.
 		if (actFigure != null && isPlaying.get() && !paused) {
 			switch (e.getCode()) {
