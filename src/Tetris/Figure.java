@@ -563,37 +563,7 @@ public class Figure {
 		bricks.clear();
 
 		// Create new figure in chosen position
-		Color color;
-		switch (type) {
-		case I:
-			color = Color.RED;
-			makeI(gamePane, color);
-			break;
-		case J:
-			color = Color.YELLOW;
-			makeJ(gamePane, color);
-			break;
-		case L:
-			color = Color.MAGENTA;
-			makeL(gamePane, color);
-			break;
-		case O:
-			color = Color.BLUE;
-			makeO(gamePane, color);
-			break;
-		case S:
-			color = Color.CYAN;
-			makeS(gamePane, color);
-			break;
-		case T:
-			color = Color.LIME;
-			makeT(gamePane, color);
-			break;
-		case Z:
-			color = Color.ORANGE;
-			makeZ(gamePane, color);
-			break;
-		}
+		createFigure();
 
 	}
 
